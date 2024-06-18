@@ -1,0 +1,468 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CEO de sites -->
+    <title>BhCripto</title>
+    <!-- IMPORT LIBRARIES -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://kit.fontawesome.com/8620ba7610.js" crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/main.css">
+    <link rel="stylesheet" href="src/css/p1v1.css">
+    <link rel="stylesheet" href="src/css/p2v1.css">
+    <link rel="stylesheet" href="src/css/p3v1.css">
+    <link rel="stylesheet" href="src/css/p4v1.css">
+    <link rel="stylesheet" href="src/css/p5.css">
+    <link rel="stylesheet" href="src/css/p6.css">
+    <link rel="stylesheet" href="src/css/p7.css">
+    <link rel="stylesheet" href="src/css/p8.css">
+    <link rel="stylesheet" href="src/css/zbeforemain.css">
+    <!-- <link rel="stylesheet" href="src/css/mediacarry.css"> -->
+
+</head>
+<body>
+    <!-- bar top -->
+    <div class="cda topBarbhCryto" id="barJsfromtop">
+        <div class="cdb capsulaBarBhCryto">
+            <!-- logo -->
+            <div class="cdc aright1 celulaBarBhs ordemGrid1 logoFromCapsulaBar">
+                <img src="src/img/logoBh3.png" alt="LOGO" class="cda">
+            </div>
+            <!-- OPTION ONE BUY CRYPTO -->
+            <div class="cdc acenter1 celulaBarBhs ordemGrid2 optionBuyBitfromCapsulaBar">
+
+                <div class="cdc aright1">
+                    <p>Comprar criptomoeda </p>
+                </div>
+                <div class="cdc aleft1 arrowBarBuycripto">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAz0lEQVR4nO3XywrCMBCF4byERZ/2zCLzYrry0o1Z+DiK2IUI1TTNZYLnh0IXGcjHrOIcY4wxxhhjfxuAPYALgMEZC8AgIqOIHGIOn0TkLiLBEgYvRJjudvw5oKobANdp4Oa931W56YI7AdgmDbbEaCrCEkbXIixgNBeiJUZzI1pgtBSiJkZLI2pgqiFKYqojSmCaIXJimiNyYMwg1mDMIVIwZhFLMOYRMZhuEN8w3SFmXnPh/d/SqzOqjy30tYmZzZyfX3ebYIwxxhhjzFntAXCgpT3L7mCYAAAAAElFTkSuQmCC">                
+                </div>
+
+            </div>
+            <!-- SUPORT -->
+            <div class="cdc acenter1 celulaBarBhs ordemGrid3 optionSuportFromcalsulaBar">
+                <div class="cdc aright1">
+                    <p>Suporte </p>
+                </div>
+                <div class="cdc aleft1 arrowBarBuycripto">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAz0lEQVR4nO3XywrCMBCF4byERZ/2zCLzYrry0o1Z+DiK2IUI1TTNZYLnh0IXGcjHrOIcY4wxxhhjfxuAPYALgMEZC8AgIqOIHGIOn0TkLiLBEgYvRJjudvw5oKobANdp4Oa931W56YI7AdgmDbbEaCrCEkbXIixgNBeiJUZzI1pgtBSiJkZLI2pgqiFKYqojSmCaIXJimiNyYMwg1mDMIVIwZhFLMOYRMZhuEN8w3SFmXnPh/d/SqzOqjy30tYmZzZyfX3ebYIwxxhhjzFntAXCgpT3L7mCYAAAAAElFTkSuQmCC">                
+                </div>
+            </div>
+            <!-- LANGUAGE -->
+            <div class="cdc ordemGrid4 celulaBarBhs optionlanguagefromCapsulaBar">
+                <div class="cdc aright1">
+                    <p>PT-BR</p>
+                </div>
+                <div class="cdc aleft1 arrowBarBuycripto">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAz0lEQVR4nO3XywrCMBCF4byERZ/2zCLzYrry0o1Z+DiK2IUI1TTNZYLnh0IXGcjHrOIcY4wxxhhjfxuAPYALgMEZC8AgIqOIHGIOn0TkLiLBEgYvRJjudvw5oKobANdp4Oa931W56YI7AdgmDbbEaCrCEkbXIixgNBeiJUZzI1pgtBSiJkZLI2pgqiFKYqojSmCaIXJimiNyYMwg1mDMIVIwZhFLMOYRMZhuEN8w3SFmXnPh/d/SqzOqjy30tYmZzZyfX3ebYIwxxhhjzFntAXCgpT3L7mCYAAAAAElFTkSuQmCC">                
+                </div>
+            </div>
+            <!-- SOCIAL MIDIA -->
+            <div class="cdc celulaBarBhs ordemGrid5 optionSocialMidiaFromCapsula">
+                <!-- facebook -->
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADK0lEQVR4nO2Zz08TQRTHNzM0MQHixaMnI2jE4Mmr/4A/okej3r0oAn+AiYke9IYkpDNFDAkRqokHL4bEEzFelIqAJP5IDPvetrXQAhXSsrRjplYMboGdnd0th/0m79TN7Pcz8+bN7KthRIoUKZJUbNg8Qxj0UYZJwnCGcsxTjpv1yBOGH2u/cbNXPmscCCVy7YRDP2XwmXIUSsFgXgIbg9m28I3fFS1yJinDZWXjDhBcIgzvyDHDMR/Hk4RjStv4f0EYThsJOBGodxqHS5RD0W/z9F9arVEOFwMxTxLWDcrBDsw8/xtgE25dD2LmQzCP2xCUwQV/3A+ZHX+WVs9U24glOiey4uzLn6LreVZ0jGfE4afWXhBFud98qDbeN2wLR3H1TV5Mpctis1IVjXR5cnn3jc3hg1Z1qpVKj+YPDVti4vuG2E9X9gCoQcSxx5v70XQr5ZDzCvBwpriveTcA8pyQB6aH2Yd+r+aPjmVEeZeUUQbg8oyAPmUAT9eDevS+W2lotlCuiPupNXFzqrAdx55l9h+TwbySeXnZ0qk4498a5/65VznPY8YS6dOhpI+Mt5myw/zs8qbn8ajqZpbXXp2XzeVtB8DY1w0tAMpwXGEF8JPOyxYKToDHc7/0VoBjSmUFlvwGGNAEoBxyKgDlgweApUAA7k2viXypsiO2GhwBpa2q47l8qSK6X2QDAXCdQo9cnriNVBVCtI9Y/qeQyibWAfhR3ApsEyfDAJiEUkBlVLZHQgAYUNjYhONt1wAxbnarfKgcGU3viC8rzirEFtYdz7U+cZv/KGIs3eUaoL4KswolLtgyyhQvc6ppFDQA4WZvqB80vgIwXPLcvZMds2YDEIa3DK2PeobTzQIgHN4bSUENLfHF45TBavgA4ENbpS7Z7lNpbOkDgE0T5nnDT8l2n1sIPQCwCcNrRhCS7T43XTrPAAxWfZ95hxh0yo6Z3wBEbtghs8MIRbI6xbFnt2u3GgDkaqVSu9p40WC2TZ7YhMOcKoC8qhB5wjblL6YGkpet2qpwnHhtlgqLRbuybleFDLNoVx6kVi15Ja61R4atU832GylSJONg6DekIcfGE7hs2QAAAABJRU5ErkJggg==">
+                <!-- instagram -->
+                <img src="data:image/png;base64,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">
+                <!-- whatsapp -->
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAACdklEQVR4nIVT708ScRi/171srRe9qbXW2upFf0Qv+gPaetHf0Fq11rTmZVKs+QMGCNOT+CX+QEgOuhSBg5sbnJCSkJKigiM3UzjwJL0U9rTnVBwN1rN9t7t7Ps/nPs/n+zwE0SRIreVm/yjTZfEEh6w0azQ4GCWptt4h/hc9JuetYW/o8/yPzVLpsAbiEcinLNVgcS0v2pmwT2Vy3G1arBuh7/v55JogHQO7EQUtPwgdQYV88DmU5QFz4a/pnM7mfdBQ3Es5bvijycxWZQ/UET20zXQ0PZhDDJI0KLHQrKcoHcuAdj8JpgUbkEFFSxJUgu2cGjZ0JZpa30XZCJhc9gDGlxVfSyXYTmI1L77VmW8TWjv9svj7GDT8gJzk8zGZIFNYa0mAnpSkGhjGGCVhdM5o0Gk0C5O2xIhM4Ei5WhIgFmvMk6yRoCamVPjyhn1fB6S2l0A4EEDJ9ZwUBLrgdaCznifZdzKBlQ4MEn0W+vEvUQIdT50DggrICjnY/1MB15IbMsV1KB+Wwf5tTM4jVjisgn6E6SSe9Qxc4ubTeS4Xb5QZ6AIuOwvVWhXOYnrVf2riHMTTWYHss1+Xb8Lm4Vx4NSjt334V4Q8wnnKBJWGXr1gdNYAgVcFGhzz1OZjwR6Z/7u/JBe0zZOtBihpgqyKCP5JcxeE7mQNy4EIw9j2bF0uwtLsJhQMJwrkY6OYo2Vh0HHtG2fhnX2RxRWN33ztfoI/Oh5mtQi2+vCHQoXhsfGqW4RbS+R1Rqi9ToXIEkWRmx+pmXUrD6LWGPegzuR71D3vbXnUPXT379rSXuqg2u59QzimV8ZNPo7F5Xjzv1l9utoV/AYRegHVid3MZAAAAAElFTkSuQmCC">
+
+            </div>
+            <!-- DOWNLOAD cxxxx[]::::::> -->
+            <div class="cdc celulaBarBhs acenter1 ordemGrid6 optionButton">
+                <a href="/downloads" class="cdc acenter1">Baixar</a>
+            </div>
+
+            <div class="cdc hamburguer">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAOElEQVR4nO3UwQkAMAzDQI2ezd0pUkPQQd4BPwQ6L8k0jpTQfDyVqaU1MSCfYEB0TwzIJxgQseQBJ9lBYHvAz/QAAAAASUVORK5CYII=">            
+                <img style="display: none;" id="showBardevice" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsTAAALEwEAmpwYAAABK0lEQVR4nL2WvWoCQRSF11JEsRJSW4hPIcTC7ZIm76CWNnap8wjRRh/Cxt4ihV3qgAELxVJs/WRhkXX2zu+qF6bZOWcO87Ezd6LomQW0gXFmjICqo7eW6rP+tiTsAGdua+YYMld8yTodnXhCvj4sAe+C59tkqAB/iuEAvGj0DWCv6DdWzMCrgG0JlBRdCVgImHrGAAu2gaIZemFyxHYCWul8Ezh6Y3LEtgbKwE8wJkdsv8K3SVCAARsCplpwiAFbcUxC0Oq67G2t7hXQtewkLhqQXHz/mGsL1IuEPPbvQsa0NpyT+B6YTpYT74cNmApI+opmEIxNg8nnFo5DMNn6yc4LmwaTrTO+OWPT9Pi5cevR1TsTsOV7fPpa+cqMT9eLL+kjqT7rz79WHlkXJH4EtnZ1o0cAAAAASUVORK5CYII=">
+
+            </div>
+
+            <!-- comprar bitcoin -->
+            <div class="dropdown-menu" id="menudropdown">
+                <div class="arrow-up"></div>
+                <ul class="crypto-list">
+                    <li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAADJElEQVR4nL3TS1MTWRgG4GiNFBc1Iiqo3AQx4RJRQZAqw2pqFNczGy+7+Q8s2VjglP/Bv+CUJd3nnO4TvEwxljNaM5aKIQmYQKfTuWCuk0sDr5WTAGZQ1IV+Vb3pxVP9fu/XFsv3HExYdr+eGelz8+Erbj5wxTsz2Fd899XQS3Lh4By/cOsNH9bnXUPw8EF4+Tn4+Fn41NPBBdUx5X/sqP8i7BUfGZ3jw2G3awjzAhoQ0AI/g0V+Gm9VB/xqLwJqt6Gp3c4dMTcfGXW7hvLz/Dw8fEB8lefxdXgf/QLvw5+x8OgqAmoPllQ7NNWGoHIyr6ldzk/GdPPz4Y14XvUs3K4xxEOziAVk8awEZPiZDZpyCrpyEiGlE4bSbsTvt26P7+GDv23F68c8daCQjaBy1hFfVhCgvTCUEwgr7YiwVkRp81QFVmzOq57RP9yTh/TAzMWQivwNHxnEWzYM/d+bgg39M4EIa0OUtSDGmrFCj4Uq2vcpDsci7y8vvE/syUfsAkwaf8IvdWKZdGDpj2sCjLy8XYLYMbxjRxGnjUjJjb2b4KLqGNuAltRuLKs2LMpdAlwtpJGJvUA2/gbrawVk380hyPpLEGtCgh5Bkh5GmtRf3gQDSs/lEmQXCw8qXfDLHTBzUeSSPoSejcN4Po5E4J5AjdkbSNBGAaXoIaTpQaTZ/ktbILX3lc6gq9xeB5bkNgGmjVlEaCmePt2C9dUc0hpDkpSgDK3Hf8SKvFy3Fbm40KDSGSxCpfbaoEmtAsyEn0KTbNBlO8JPfhU7THjulKEDyJL9yMn7NMCyq6LpkNI+tXkGrAW6dBxm1vjf2QDZyF+IERuyxIoc2Yc8qUOe1Exuu8PicUZZsxFjx0vt0SbobAAZ/QFS/t+R8t9FKnAPqekNaC8KpBYFqTqEu5YDH/1bVuSjzhXWlC+eQZIeEQuPPvgJ0ZlRxFxOxGZ+LEN1MEkNTLk6B+mHi5adJikfciZIg5GmDZV7KsczSS1W5WqsSntCn8Usm/Gt9RlqncoSa/DDeKaAqrQ1ac/kJ2PuNMX2i+dg0toxc7pqDFJVz7Y2v/W8B2Kyy0+E/CpcAAAAAElFTkSuQmCC">
+                         Bitcoin</li>
+                    <li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB+UlEQVR4nGNgIBLU1/9nY6AWKKp/KpJddO1GWv1TLqoYWNHwbGl6wZX/qbkXd1FuWP0zj4qG5/9BBsaknPifXnjJi2zD6uufclU0PLuLMPD4/8TMs+8ZGP4zkem6530gw5ANBOHU3MvzSDasqv6JQXnDs9/YDIxLPfEvo+iWIdGG1df/ZylveH4WZlhJzeP/4QkH/0ckHoYbmpx9/iHxXm14Xg4yqKjq4f+0/Ev/Y1NO/Ld3W/Ffx3jyf1vnZf+Do/eCDc0ouNJC2LD6u2p5pbd/JGadhbsGhEEGahlOgmMT67n/vYK2/k0pPqGI18CM4jtiKTkXD8SmnsBroK7p1P+uPutfhYbul8BrYGH9I6GKxufmGYXXLBKzzz/AMNBo8n87lxU/gmL3uWfkXSnOyrrCQ0QYPqsvb3i2ubr5uWJa3pXEhMyzn0AGmtst+BcYtrs9s+C6b2LWuddp+ZcnMxAD6uv/M5XXP9tTUf/8W0X9s476+g9CkUnHStOKLmkk55y7AonlC1cZSAGl9a+lyuufv4IknWdPswqvb4tNO/EPZFhCxpnvyfVXhBhIBWWNzzwr6p/9Q07YoMjKLL7mzUAuqKh/3oNsYFrelbkMlIC0mf9Zy+ufHQMZmJx9/hFFhiFc+UIps/D648LCm9JUMRAE4uvvcxCjEACwIlMuDB1v+AAAAABJRU5ErkJggg==">
+                         Ethereum</li>
+                    <li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAABtElEQVR4nL2TSy9DQRTHr34CfAEL5rYp3VirrdZnEB/BErFwF0Q9lhI6U0klOnOFxALLiko96tEgTTeViERU2yCWujpyKq65t3NpJUxyck/Of/K75zWa9q/HMDy+9ZUewmODaOhjrGmOfyPWTgSdJZw96oKBbESwIhEsEuBLbQ3BSCLar3NacYIUViYmC/4II5xWG4B9ZMtp1RWKZcqZTWePgRfysH13AzevLzVDH2OoyZkGVOUTzubkv5+Wi+B2UHP0NWKnGYbHOYDxTAoWc1nYui1YIPQxhpqtfE5Ltul7EzSg6lHv5ipMZA4sIPoYU93tFKzbAuomDcuicX4IUxdHMHqyD/OXGQuIPsZQmzxLO6DR0BdQREOymHuugCjkYewkBSPpZO376WO5qF0/VWxAL2cDFhBfgCz6zBgM7+3CwtUpJO/vrAzRxxhqeMe1ZA2HIlhR1Zuh5I4FRN9lHx80gBb72ggW+S1Q52ymbg9xOXFJmwZyWuqIx1vVT89kwWaens7Zm85pnxImQ1WZqjL7EaZJ5WNPVYPCAWDPXMv89hiGB9ehtvgmDXetLfvrpvnX5x2z1oD9uJM9ugAAAABJRU5ErkJggg==">
+                         Tether</li>
+                    <li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAADNklEQVR4nL3TTW8TVxQGYDfb1J57Z+6dudexZ5wAKh8BFVXqqklVVaRJpKpCbJHYIHVd6KJIrbrD9F9U/AETqyEllIaQjzpOoImBAMZJY8COxw5xiFPw2JC3mnFKCOGjXbRnM9IsHs37njM+3/868DVRNLf76/5eWvX3Uqe53X33r50AAqqC5jNK3b9Ian6QagDkTwW0ooCsKHlaplFlRaH/CCN4t1N56i+S+gb0WAFdU0BXCWiZQn1IoZZU0IJqsxzreCtGan6HOAGQJwEPOlQ8hE67Ax8XOtGV64Jqq9AWNWgPGLR7zGHZ16BuTOIEii7kxVslOFh4H0NrQ4g9iiG2EsO5cp+LQLvPoGU52DyHdpfbStbcHp88CfzgxasooI8IqE1h1wt4cdaxjvPLAwinTbA5HSxtgN82wG6K6FYNviZSURa39JRTUaqXkKgk0JbZgd2ZPfj2/nce/M3CKfA7BvisAL8hwGdkYcv2aYXupysEdLlRuNuTmtU8cGR11I0FltZxOH3EA6PZM+A3BXhKQp8OQr8WhDER3rcJPqQ96hKFWlShFjRoOQ3aHEOptoTK0wqmK9OYXbsFZ93xnnun90OfkR6kT7XASLaAj4e6N0GbdntQfmN7buFp7oGZxxl8NX8SJ+a+xjk7DudZDUevH4N+tQEZiRCM8TDkWOizTXCRtm+cAdgCbxQ+q2OptoTR8hh4SkBPSQQnw6g+q2KweLEB/RaCGA1DXDFhXHohsluo+gfPs3kdLKODuYWnhAcmyhPYldyN95L7cPz6l16HPy6chTEWhhgJQ1w2IX61cj743tmyaHZXj/59Bl7h1yRsx8bLM7V8FQeGD0IMmxBDFuQvFsRg5PS2O1RSJmWzwuY35PPCP0h+iOHSMPrycfTl4vgp3w8x5EIm5CUL8mIEcsAqWDGLvPJvYTOyg/8uHW97ky0wJkLomfwcnyS68Ol4N3rHv3DjNaALEYiBSFXG2z56JfYcnZIderLFdgt/qScvnhx0v6oVwf5I4a2Yb2PMEZOKK6GouBzOez258Vzo51bI/tZcMN52+rUx3zjf+5rccxAXrB7Rb/WI8zv3btvmfz1/AZjfLmHo07LfAAAAAElFTkSuQmCC">
+                         Bitcoin Cash</li>
+                    <li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAABH0lEQVR4nNVUzU4CQQxuFIngydO2iZE7D4BP4tkbCU4vxAcYiSd9DZUD/gEH9Wl4Cbx/ppvZCCOLsxsP+iVNmm37bdtpS/Qv0CfsDY5xaOIJO6lx5jsIccbxZeii6RhzFUAFkzVjCU4Ju05wm8cw3s862F//WxdNZczMwQketpEamTLuQwJv38gi0mkgfdpEmmfGGAef11KyTeU7xstFhoPCZroynoNtbr6UgijThRPcBFmEnk2TyQp4QkMFIxUsQ69Mlk5waTaqi+ERWpqhZ/Jjv1IJzzOcmJhOdeEJDSe4coKPomTT7Vvlkn38KIzrXOo8it8yNn1Bu9LY+JVtUcFj2WBX2ZJZ6uo5xl0pqY+OQ0rT4+MwXJ2AXz9ffxqfznkSE6xoUr0AAAAASUVORK5CYII=">
+                         XRP</li>
+                </ul>
+            </div>
+            <!-- suporte -->
+            <div class="dropdown-menu" id="menudropdown2">
+                <div class="arrow-up"></div>
+                <ul class="crypto-list">
+                    <li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAACO0lEQVR4nOXUS08TYRQGYP6GlkKhcmlry1WgBlBIiAsjK000LLj4E4zKTQScTksLLYJUykV0S0wMspBKwrh0pRsTlc7tm2+mxWBFEgiVRF5TwMEgKQRWxpO82yc5J+ectLT/sxKvW+o355unT5JE+OYVHVyfa+I251twkqy9anyjg8qTutnvLxveHxf79vxqVPDmL+jg0tNaTh2vgTh1+V1irnntqFAi3PhTHa+G7MkCYY2cDkYna7jYxAVooWpEhquWV2YaPh6Grb64BiHggObPgebbD45VcdFQFaKjldCC58EHyreE8UtvN8LNG/uhH+EmxJ7VQRm04cuwBbHAAaA2WsklIW3ECfVRBdShMoj+UnzyO9dXZ65v6YOfvQH5cQViwQIsB+0pwBEntwOVgz48BxooheIvhuwrwgfGATl0EdpULZRgCeITxYiPFaYG1aEybhsaTEIlUAaKQHyFIF4HZI8dvMsGwW3F11AxViaPACqDpdxvSOlPQgUgfXbI7rOQWRskxgLpQT7Enlxo/VbEQ4e0TAaKuD3I8TfUmwexOwfC/TMQ7pkhdZuxFLCmAL0Obhvy7EIu6x9Qrg7xnVngO0yItGWCb80AYbIRO2htZLd9QYcYyw7Uswt1JaFsHYq0ZmDxTjoWbxvw+dYp8HcNoKwJxG3cuxSRtdZLTP60zFrmVJ+NKl4bJX0WSlgLJa48SphcKveaqdSdTcUuExU7M6nQbqRCezrl207TSJuBSL3GpmN9pn+/fgF/V6PkiCiyeAAAAABJRU5ErkJggg==">
+                         Suporte Tecnico</li>
+                    <li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAABHUlEQVR4nGNgGAUwELrqv5DHtv98DGhg4q3/7EuffhJZdeU/GwNeUPLfUnPy/wbP5X9uBKz9+yNo/f//IOy35s8HpyX/d7ac/bJrzq13bxc//PBvyaOP/xc9fP9n8tX3NwJXf28A6cU0MOfNds2ut2BDsGGQIdhw0OJn/0F6MQ3MeLJPs+Ml6QYufPQfpHfUQIaRGoYy1Q//K5ed+S+cdug/Z8Kh/zyJB/9LZB3+b9h++3/Sssv/jWsO/JfJ3v9fMOXAf4Xc/f/de4//t+i5g9tAhrz3/xkKv/1nKP2PhP/9Z8h6/p8h6wWEjSwHUgvSg9VAs2JvBrOKHAzsvWQSQ8bjK2DsvXgiVjVmxd4MJAAOBgYGFSgGsUcBAwoAALWvGsup48nIAAAAAElFTkSuQmCC">
+                         Base de conhecimendo</li>
+                    <li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAABDUlEQVR4nNWUu2oCQRSGD1gl72ERfQJ7q7xEymjhrsEbmMYihV1IiIUPkCJ2gbQpROyT1sbGlCoI3glfONksIrsju2OK5IcfzhzOfDPDmRmRfyWKksaREq7UIllrC5Iyw1xZ4QoxvQyF/qyKpWthwMZeUeUUOnnotaDfhpdruEmagI3DQIV9vBPQeg63GQtgJ7+DrGYwn8Bm4Y0HrxbA7r03+XML7XNoZeG54uUWU7hKxAT2Hjio8RAeL34RqNKao46s1lhzqu5dnKbkCDRFrbGvp8sYwPJJ+LXxNXrzaiIDfajuwr/Yao01tw/DBLR/eo5UTZ/D0upzcOUsAPyGFiSFI3UcaUZ03Qj7s/oCscCpD/GUy0kAAAAASUVORK5CYII=">
+                         Blog</li>
+                    <li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA00lEQVR4nGNgGAX/y134/5d4u/wv91fAFRogOYgaF36CIfa/xDvzf6nP//+l3itxqin1XglWU+KdidOgZ14Sds88JWf+SLedBjHQZxVuA31WgdR8y7CZDtID0ouh6KmnZMMzL8n/nxPNDhJrIEjtMy/J/yC9Q8jA9rkrbpX0zXy9ryjmFUjybr7/V5Die80ZH/uXrL2KDYPkQGpAap95Sf4H6S3qnfGmY+7y2wwgoqB7xjuqGTj4w5BmBj4jI2GD1D7zlJz51FvSlvZZj2aFA8OwBwDyhlFz6tYCXAAAAABJRU5ErkJggg==">
+                         Academia</li>
+                    <!-- <li><i class="fab fa-xrp"></i> XRP</li> -->
+                </ul>
+            </div>
+            <!-- language -->
+            <div class="dropdown-menu" id="menudropdown3">
+                <div class="arrow-up"></div>
+                <ul class="crypto-list">
+                    <li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA6ElEQVR4nGNgGHngqTED121tBgdq4KfGDFwMtzUZtO/qMPynBr6tyaA9BAx8V8Xs/Wcr239k/GsL1//36wRRxIjB76qYvRne1TL7/z/I/h+Gv+/h+b8rV/z/6gLR/zcnisDFicHvapn9MQzc1yf/f20I3/9j3Qn/720O+n9kjgL5Bn7fzPH/YKXt/+n+Uv/bwiP/n52c+f/cNFfyDfy2heP/mblO/1eG8P5fFqL1/1CR0f8ri51JNLAKESnvN/H+PzZf9f/5CTr/T8/2/H9ngdL/kwuUSIuU24M+Hd6mtoFPqV04MIw4AACxGVLGJ+IkCwAAAABJRU5ErkJggg==">
+                          Español</li>
+                    <li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAABZElEQVR4nGNgGAUUg7UVs6Jjgpf8w4dnhTX+/hQd8IMQfj+524FhdsfuqOkLr/+PyNj/f8WGu/9Tig7/b5988T9ILDbn4P/Fa+787yhZ9//98sUE8ZttuywYpvfsjfSN2/3fL373/5icA//dI3f8D0nZ+x8kFpCw+3901oH/HVVb/r/bupkgfnPwoBnDqupFmfF5B/9Pm3/tf//MK//TS4/837Tz4f+kgkNgsfkrbv2fkTbt/5dAV4L43aQ+b4a+6Rf9i+pP/g9I3PO/qv0M2HXZlcf+g8RA7PKW0//bJ537/+b9R8L4zScthhV1i9NBmn1id/2v7z73Pzx9H9iVIDH/+N3/azrO/u8K6/3/OT6UIP4wa5o7w8E5O92WNq/+jw8fmbSc+Eh5c+iQOTEBTnSkfJw6yZuYACc6Ut6+/axNVIATGykfZk/xICbAiY6U95MmKb5vrF5JFTxpkiLlhQHDiAcAX5Wt+LpMktgAAAAASUVORK5CYII=">
+                         English</li>
+                    <li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAABI0lEQVR4nGNgGHnAZ5MPl/d6fwdqYJ9NPlwMvht9tX3WB/ynBvbd6KtN0MDoLX7/D193+n/qpuP/uK1+lBnYcdjz/4dntv//v7YG48/Pbf5POe5BuoHRUFf9fWXzf+Wyov9JOfPBeNXyQrAYLtf6YjMQ2VV7d0363z754v+SxlP/fWN3/bcP3Pp/9YoCnK71RTYQ5iqY90B4zuLD/+csvfl/3bYH/+88+PT/zMXX/1v7tqCoOYXkWhQDIzb7/99+2RlFMcibIFfBcEb50f+Hjt9EUXP4uhPYMTi93HTQ6//bpxAvg8IM2UBkL4OCBRQ8PsRECsy1/17ZgA1Iyp0PxiA2SAzZVT6kJBtk1+JylQ+5CRuXq3xINZDkrOdD7cKBYcQBAOW8f42c2kInAAAAAElFTkSuQmCC">
+                         Português</li>
+                    <li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAZUlEQVR4nGNgGHnA2GcTl73/Zgd0nFd/3Ob1+/cO2PC3Ig+b/9YMDhjYmIGLwTF4u7Z94Nb/6Dg8bc/xN+8//seG/4QqHv9vy/AfA1szaI8auHU0DD+OJpuPA5BTjKldODCMOAAAM3TFyx/FATwAAAAASUVORK5CYII=">
+                         Français</li>
+                    <li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAZUlEQVR4nGNgGHkgbaYxV/p8cwd03LMtz+b1+/cO2PC3Ig+b/9YMDhjYmIGLIWuBqXbGfIv/6Lh6VdDxN+8//seG/4QqHv9vy/AfA1szaI8aaDEahh9Hk83HAcgpadQuHBhGHAAAGJrDjTfgrMMAAAAASUVORK5CYII=">
+                         Italiano</li>
+                </ul>
+            </div>
+
+            <div class="cdb globeDevicesOption" style="display: none;">
+                <div class="cdc capsulaOptions">
+                    <p>comprar criptoemoeda</p>
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAz0lEQVR4nO3XywrCMBCF4byERZ/2zCLzYrry0o1Z+DiK2IUI1TTNZYLnh0IXGcjHrOIcY4wxxhhjfxuAPYALgMEZC8AgIqOIHGIOn0TkLiLBEgYvRJjudvw5oKobANdp4Oa931W56YI7AdgmDbbEaCrCEkbXIixgNBeiJUZzI1pgtBSiJkZLI2pgqiFKYqojSmCaIXJimiNyYMwg1mDMIVIwZhFLMOYRMZhuEN8w3SFmXnPh/d/SqzOqjy30tYmZzZyfX3ebYIwxxhhjzFntAXCgpT3L7mCYAAAAAElFTkSuQmCC">                
+                </div>
+                <div class="cdc capsulaOptions">
+                    <p>suporte</p>
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAz0lEQVR4nO3XywrCMBCF4byERZ/2zCLzYrry0o1Z+DiK2IUI1TTNZYLnh0IXGcjHrOIcY4wxxhhjfxuAPYALgMEZC8AgIqOIHGIOn0TkLiLBEgYvRJjudvw5oKobANdp4Oa931W56YI7AdgmDbbEaCrCEkbXIixgNBeiJUZzI1pgtBSiJkZLI2pgqiFKYqojSmCaIXJimiNyYMwg1mDMIVIwZhFLMOYRMZhuEN8w3SFmXnPh/d/SqzOqjy30tYmZzZyfX3ebYIwxxhhjzFntAXCgpT3L7mCYAAAAAElFTkSuQmCC">                
+                </div>
+                <div class="cdc capsulaOptions">
+                    <p>PT-BR</p>
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAz0lEQVR4nO3XywrCMBCF4byERZ/2zCLzYrry0o1Z+DiK2IUI1TTNZYLnh0IXGcjHrOIcY4wxxhhjfxuAPYALgMEZC8AgIqOIHGIOn0TkLiLBEgYvRJjudvw5oKobANdp4Oa931W56YI7AdgmDbbEaCrCEkbXIixgNBeiJUZzI1pgtBSiJkZLI2pgqiFKYqojSmCaIXJimiNyYMwg1mDMIVIwZhFLMOYRMZhuEN8w3SFmXnPh/d/SqzOqjy30tYmZzZyfX3ebYIwxxhhjzFntAXCgpT3L7mCYAAAAAElFTkSuQmCC">                
+                </div>
+            </div>
+    
+
+        </div>
+    </div>
+
+    <!-- main part -->
+    <section class="cda SECTIONmainpart">
+        <div class="cda mainPartdiv" id="resizeingScreenMainPart">
+
+            <div class="cdb celularMainPart leftMainPart">
+                <!-- title -->
+                <div class="cdc celulafromLeftMainPart titlemainpfromleftmainPart">
+                    <p>Carteira Crypto para Compra, Participação e Troca</p>
+                    <p>Carteira Crypto para Compra e Trocar</p>
+                </div>
+                <!-- segundo text -->
+                <div class="cdc celulafromLeftMainPart secondlmp"><p>Gerencie seu Bitcoin, Ethereum, XRP, Litecoin, USDT <br>e mais de 1000+ outras moedas e tokens.</p></div>
+                <!-- info 3  -->
+                <div class="cdc celulafromLeftMainPart infoFromLmp">
+                    <!-- lock -->
+                    <div class="cdc insidecelulafromIfl">
+                        <img class="cda" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB0klEQVR4nO2YTUpDMRSFA4IIugLR2oG4COsCdCQ4UPdQq7gFxb+BdiyCM39wAepSCs6stY5VULD1k1tuoehTn2nqSzQfBMqjOTknN3l5xJhIJAyAHFACLoEK8Kitos+WgFHjK8AIsA80+J4mcAbkjU8AczrrwhNwBMwDE8CgNvm9ABwDz/rfB2DW+ACwCryqMQmQS9FnDDjpqM7K77j9uhJi5AUoWvQvad9mZpUBRjuWU7ELnWXVuAeG3bpMZ+CwvZwcaJ2q1oEbdz97xTZ0Y+cc6OX1BdCQt58bl+nXtpNqdGi2N7/1MrUZ9EIHnXeouaia56400wx6pYOOO9SUc0aouNJMM6gcZMKQQ82h9iHpSjPNoC1C0f2UGOQbiBX5D0sL6Ad2gFuypwZsiSebINv4x6ZNEJkFYdJkDFBQLzWbzi2MJ2DrJwbpEcSKKMYTsPUTg/y1igADQBmo69fBnjwLMUiZj+yGGKSeEOQuxCDVhCDXIQZZTwiyFmKQvoQgfcEFEd6nMF1ADOJmFqsuNroPQWYkgLbpYIO4hBhEMZ6ArZ8YpEcQK6IYT8DWT8cFXaEnzn7mZUq93Nh0lrtW39iwCSKX2BKmXZksuZEQX11ivwGPopGAL2FzNwAAAABJRU5ErkJggg==">
+                        <p>Protegido</p>
+                    </div>
+                    <!-- rede connection -->
+                    <div class="cdc insidecelulafromIfl">
+                        <img class="cda" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAE3UlEQVR4nO2az2+WRRDHX4VIm9C+JiYCSQERb1gllQPUM6alrVC8CEKCQstR0UNNBOK/YCgkDdaDV03AgFJDiVhLpEYTMTGNiWACClyrIESsHzL0+6bbdZ/33S1P35aGSTZ5Mu/O7Hz3x+zM7FsoPKTKBDwFvAG8DqwsPIgEvAPcZpLse1/hQSKgQ8Z/AWxQGxCvbTYMegZoAZ5PlBsCLgM1Dq8WuAKcTdDzCLBWNqxOtd8ULAY+YioNAg2R8peAkwH+SeBipI7lwBnPhn6zLQWIgRgHDgHtwH7gJjACLIyQPwVcA+ocXh1w3bZbhPxC4DuN+Z5s6JVN/bEgVgv9IY/fJf6WCB0vqe8wsEntnHgbI+S3qu9uj39Y/FUxQFrVuSOw1EY9FZVMAr/hbAv73hMp+65klmc4kZYYJc+p8wGPv1n8bTHGSKYe+FmtPkFue8ZkHhT/2VhPMaj92aWVMBB/AH8nHbYJfd9aS5Sp01i/Ay/Lhm7xTqcoatDBdsmUGPUZ2JkCwsRE9nljluh8rOf0PYetRA/wqlxyXyoY4Adr0wDRpzG3yQZbmQVJICoMVPIcHwKPlunbBHztzeaGPHTnQoFZm7IywDLnHhrTbPboe1y/LUvROWMUmj3gMeBNx+CPgaWOzBPAB8C/csXvK2yp7kr45M3iMeA3fX9l8VEZubXqg2SOVX0lfALWaQWMLgKvFCLJ+koG6VhXqDYBTyqAc8/BokC/IvCCWjHw+yLv/PSb7moC+VQDHwWWZEQHJ4A7jte6I15joP8S6Ro33dUEYtHtaJmA7xbwl6LnHWq94tlvnRmyo6Y7DwMtXP5Ge/dUVqSaBUQrYYb+GLqBFWpc0I29JgUIExH1gGwbysw0gbe1BS5rC1g+YdSVAMQSpz/LhRECYyvzWSwQYK9suSrbzEb+VwNQteO2cuwaJ3Abls+vrwQEeFznYEoekwHG7o1/AnpHfSByGDe1CvcCVt0/A7J5hdvZSjb4IYQSIqNfgO+dNhYAYp7JaEcEkJ3q2xQAMuaNZWMbtXp9m8Xf5TKt7mTU7HVum0NANnl9XwwBWallsi1T62ytcwlbq6jt0hsB5Mg0ttZwqQagrfWlHMvk1tKP+4Twig6tFQoIpadlDvsJHeQpKarXZ4Um53jCYe+WLddlmyVcRm9lDdKm0PtXHfxU99so13ohBEYgfpqm+90om8y2s/5Wm4kLcYsMvSHvtFPtiHj22+YZvRBzDFHW2D2hc1Ai+z6esRJuiPJJYQ4GjfXKFJtCVZRZDxrnTRg/bxIr8kt1a2Yt1WU+FB+4/3LQ+jx0T6dAt1WzuV0hS7ULdHUa22zojHnSCOUM9j4x10qmI9ElUyk6o0Btt0B1KL6ZjSJ2u2zYI5sGoybS3guFfr/Ht9pr6rNC0XlWKCbIvaax2jOeFRrv56HHAr6Uh569msES2Xd3NR96nlbn3oxQOhjwZTy9DWliWpVPxD69dYZSCAWe/1lqXhGIBPolcFizcFB79nxMaV/59FX3PGnfX0t4DB3RmAdkQwnE0SgQUrRYYFw6ncPz9OcJz9MNOtglugci1dmUlK3SY31jotyQMs1ah1crLxT9hwGnVtYSvZ3yJKdoMaBqR7NybHLJ7KpJqgG4f6q5lZljz3ViwmXvUsssSDykwiTdBYxZiju8N3TuAAAAAElFTkSuQmCC">
+                        <p style="padding-left: 2.3px;">Descentralizada</p>
+                    </div>
+                        <!-- anonymous -->
+                    <div class="cdc insidecelulafromIfl">
+                        <img class="cda" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADxUlEQVR4nO2aWYhOYRjHP4zdkO2CuJmMIkmWRFOKmZQolGQpY6mRC6FEIi4sc2FJ0bhV7mRLlAvJvo1MRi6sZcnOmFzZfnrM/+R1fGe+8znvmUHfv76a87zv+/8/z3nPuz3vZDIF/EcA+gKTgJXAHuAYcA14BLwD3vMT72Wzsququ0dtjaNPSzreAZgG7AXu4x/3FNxU00rrzVcDL0LCjcAFBbYcmAGMBUqAXkBPh6OnbCWqM0Nt9orDuFyY1jZvPQXMA946AreADXKmnReRJp124jTuekfvDTA3Kfl84JsIjwKjfTkeQ3uMNJEP85KQPRdRpVcv8/OhUj48S0LyA149aw0/KATyj/QI0BGoAq4ADZo6zwML48xkmqEWOdNug7iqjLtFAgH6A5ebWdROA92b4ewBnGmm/SWgX6qBAN2AOmAfMAEo1iK3WPN9gLNApyx8nYBzTr3X6ple4pog7ptA1zQDmQ4MiKg7WI4FqMlSp8YpfwWURnANMK3UAolRf6qzgDZmKf+oMqszJS0/vBAAW+Xw5ixlW1S2JU/OH8inTU4CjZO1wA059VF/r3G/6xjcsXlIKZAjRONwHtyxeUgpkOBN1jpvsjZBj+TkIY1AWgMUAhEKPeIZFD4tAfiglxG5CUwbNG0yDQ1JSG6LZKieK4Ain45G6BaZlv4eJh/qkxAeEskCPQ+0xcpN8/gGTWkj0xioZzvjGA4mIV0mkv2ObYUSaUNitN/krNbVMeoPAu6YhmM7oPZVSQIxYsNLoL1zuqtV+rM8ZhABNjVTv1yctcEpU5nN4GhQ8seBiMwScoaZjm0U8AX4bL0WM4jIYNTzxmWcoxz7LLWpSxSEI2I4EbLvwj92hTROyb7URyDFmobtMDQiZH8cw7mN2gjmgnEVO/wjpdno2pMGs1tix0N2O/oS5zPK8bnhHm0NwEnZd2Y8Z+MtZWMY7404Wq9MWjb4e/smXy1ymx47eyX/PWdWL61VaQk8kMB27wK/TyL3UrnskYjlnb7qNzEF/gpx2zRc5ps/LLbZuRMcnqPuL8hRd4QzDiMXTm8A2trs5az4pUkD0XVccBdjlzttUwsgJFyspDMaN6V/GogylA9V5aIlJVIPIMsu9boceJNt35UrEGCycz9pL6ZHiwUQcqSr85nZIN2eLfkcDkSpoJ1OetXu3Lu0ShCOU7YbXq9Nn+GJsvM2XYdhtiXAUz1/Atb5vB32dQtr/9EQIBi8RNguuzvdvwpAG2COcrhRsHE12+pm/gUA4zUO7uq3AxjX2n4VUEAmP3wH6MoyIyU6cpsAAAAASUVORK5CYII=">
+                        <p>Anônimo</p>
+                    </div>
+                    <!-- empyt -->
+                    <!-- <div class="cdc"></div> -->
+                </div>
+                <!-- button download -->
+                <div class="cdc celulafromLeftMainPart aleft1 btnfromLmp">
+                    <a href="#" class="cdc acenter1 btncflmp">BAIXAR</a>
+                </div>
+
+                <div class="cdc celulafromLeftMainPart slacaraodio"><p></p><p>Confiado por 5.000.000 usuários em todo o mundo</p></div>
+ 
+            </div>
+
+            <div class="cdb celularMainPart rightMainPart">
+                <!-- <img class="cda" src="src/img/fg.webp" alt=""> -->
+                <img id="imgresizes1" src="https://atomicwallet.io/images/wallets/cryptocurrency_bitcoin_wallet.webp" alt="">
+                <!-- tela 767 -->
+                <img id="imgresizes2" class="passandoFino" src="https://atomicwallet.io/images/mobile-interface-slider/atomic-wallet-mobile-app.webp" alt="">
+            </div>
+
+        </div>
+    </section>
+    <!-- OFFSET MONERO -->
+    <section class="cda sectionxmr">
+        <div class="cda xmrgerencie">
+            <div class="cdc capsulaxmrgerecie aright1 xmrlogofrinxmr">
+
+
+                <img class="cda" src="data:image/png;base64,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">
+
+            </div>
+            <div class="cdb capsulaxmrgerecie acenter1 justatextfromxmr">
+                <p>Gerencie e troque seu Monero (XMR)! </p>
+            </div>
+            <div class="cdb capsulaxmrgerecie aleft1 btnlearnmore">
+                <div class="cdc learnmore acenter4">
+                    SABER MAIS
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- reviews verdadeiros -->
+    <section class="cda sectionReviewsCheck">
+        <div class="cda realReviews">
+            <div class="cda cellrealr c1">
+                <p>Avaliações Confiáveis</p>
+            </div>
+            <div class="cda cellrealr c2" id="caraqueodio">
+                <button id="arrowrBack">
+                    <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.417 1.25L8.00032 7.66667L1.58366 1.25" stroke="#3692FE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                </button>
+                <!-- 1 -->
+                <div class="cda firstgrid1">
+                    <div class="cda insidecellrealr middleYunk">
+                        <img src="https://atomicwallet.io/images/reviews/review_1.webp" alt="img1Reviews">
+                        <p>Rogério</p>
+                    </div>
+                    <div class="cda insidecellrealr">
+                        <img src="https://atomicwallet.io/images/reviews/stars.svg" alt="starCount">
+                    </div>
+                    <div class="cda insidecellrealr">
+                        <p>Adoção. Obrigado pelo apoio @atomicwallet !</p>
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class="cda firstgrid1 gonegone">
+                    <div class="cda insidecellrealr middleYunk">
+                        <img src="https://atomicwallet.io/images/reviews/review_2.webp" alt="img1Reviews">
+                        <p>Carlos</p>
+                    </div>
+                    <div class="cda insidecellrealr">
+                        <img src="https://atomicwallet.io/images/reviews/stars.svg" alt="starCount">
+                    </div>
+                    <div class="cda insidecellrealr">
+                        <p>Ser capaz de trocar ativos sem um serviço centralizado é incrível - atomicwallet.io</p>
+                    </div>
+                </div>
+                <!-- 3 -->
+                <div class="cda firstgrid1 gonegone2">
+                    <div class="cda insidecellrealr middleYunk">
+                        <img src="https://atomicwallet.io/images/reviews/review_3.webp" alt="img1Reviews">
+                        <p>André</p>
+                    </div>
+                    <div class="cda insidecellrealr">
+                        <img src="https://atomicwallet.io/images/reviews/stars.svg" alt="starCount">
+                    </div>
+                    <div class="cda insidecellrealr">
+                        <p>Mandaram um e-mail com o apoio deles e receberam uma resposta em dez minutos. O problema foi resolvido. Gostaria que todos tivessem fornecido esse apoio. Obrigado Atomic. </p>
+                    </div>
+                </div>
+                <button id="arrowrNext">
+                    <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.417 1.25L8.00032 7.66667L1.58366 1.25" stroke="#3692FE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                </button>
+
+            </div>
+            <div class="cda cellrealr c3">
+                <div class="cda nav-manual">
+                    <input type="radio" name="btn-radio" id="radio1">
+                    <input type="radio" name="btn-radio" id="radio2">
+                    <input type="radio" name="btn-radio" id="radio3">
+                    <label for="radio1" class="manual-btn" id="plocpoclo1"></label>
+                    <label for="radio2" class="manual-btn" id="plocpoclo2"></label>
+                    <label for="radio3" class="manual-btn" id="plocpoclo3"></label>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- cashBack Info -->
+     <section class="cda sectioncashback">
+        <div class="cda cashbackdiv">
+                <!-- text info -->
+            <div class="cdc celularcashback textcashback">
+                <p>Troca Instantânea com Cashback </p>
+                <p>Troque 60+ pares de criptografia anonimamente e receba um dinheiro de volta </p>
+                <a href="#">TROQUE AGORA</a>
+            </div>
+                <!-- img  -->
+            <div class="cdc celularcashback">
+                <img class="yutiri" src="https://atomicwallet.io/images/index-img-1.svg" alt="">
+            </div>
+
+        </div>
+     </section>
+     <!-- Buy criptoemoeda -->
+     <section class="cda sectioncashback">
+        <div class="cda cashbackdiv">
+
+                <!-- img  -->
+            <div class="cdc celularcashback">
+                <img class="yutiri" src="https://atomicwallet.io/images/index-img-2.svg" alt="">
+            </div>
+                <!-- text info -->
+            <div class="cdc celularcashback textcashback">
+                <p>Comprar Crypto </p>
+                <p>Compre Bitcoin, Ethereum, SOL, XRP, ADA, DOT, USDT, BUSD e outras moedas com seu cartão bancário. Aceitamos USD, EUR e sua moeda local em todo o mundo
+                </p>
+                <a style="width: 200px;" href="#">COMPRAR CRYPTO</a>
+            </div>
+        </div>
+     </section>
+     <!-- estacar y buy -->
+     <section class="cda sectioncashback">
+        <div class="cda cashbackdiv">
+                <!-- text info -->
+            <div class="cdc celularcashback textcashback">
+                <p>Estaca e ganhar</p>
+                <p>Receba recompensas em apostar ETH, ADA, BNB, SOL, TRX, NEAR, XTZ, HBAR e outras moedas com 5-20% APR </p>
+                <a style="width: 200px;" href="#">ESTACAR AGORA</a>
+            </div>
+                <!-- img  -->
+            <div class="cdc celularcashback">
+                <img class="yutirix" src="https://atomicwallet.io/images/index-img-3.svg" alt="">
+            </div>
+
+        </div>
+     </section>
+      <!-- anonimo protect suport  -->
+     <section class="cda sectionproAnosupor">
+        <div class="cda showidkman">
+
+            <div class="cdb celularbaixarcarteira genoma">
+                <div class="cdc insidecelularfromproanosupor">
+                    <div class="cdc dededevi">
+                        <img src="https://atomicwallet.io/images/features/icon-secure.svg" alt="">
+                        <p>Protegido</p>
+                    </div>
+                    <div class="cdc dededevi">
+                        <p>Suas chaves privadas são criptografadas e nunca saem do seu dispositivo. Você controla totalmente seus fundos.</p>
+                    </div>
+                </div>
+                <div class="cdc insidecelularfromproanosupor">
+                    <div class="cdc dededevi">
+                        <img src="	https://atomicwallet.io/images/features/icon-anonym.svg" alt="">
+                        <p>Anônimo</p>
+                    </div>
+                    <div class="cdc dededevi">
+                        <p>Sem contas, sem verificação, sem KYC para recursos básicos na carteira. Ninguém pode bloquear seus fundos.</p>
+                    </div>
+                </div>
+                <div class="cdc insidecelularfromproanosupor">
+                    <div class="cdc dededevi">
+                        <img src="https://atomicwallet.io/images/features/icon-support.svg" alt="">
+                        <p>suporte ao vivo 24/7</p>
+                    </div>
+                    <div class="cdc dededevi">
+                        <p>Nosso suporte está sempre pronto para ajudá-lo. Obtenha uma resposta rápida e eficiente através de chat ao vivo ou e-mail.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="cdb celularbaixarcarteira">
+                <!-- <a href="#">BAIXAR CARTEIRA</a> -->
+            </div>
+
+        </div>
+     </section>
+       <!-- download -->
+     <section class="section-download">
+        <div class="cda downloadmodeol">
+            <!-- text -->
+            <div class="cdb capsuladownloadsectionx">
+                <p class="cansado">Baixar Atomic Wallet</p>
+            </div>
+            <div class="cdb capsuladownloadsection">
+
+                <div class="cdc windownload">
+                    <img src="https://atomicwallet.io/images/download/windows-icon.svg" alt="">
+                    <p>Windows</p>
+                </div>
+                <div class="cdc windownload">
+                    <img src="https://atomicwallet.io/images/download/macos-icon.svg" alt="">
+                    <p>MacOS</p>
+                </div>
+                <div class="cdc windownload">
+                    <img src="https://atomicwallet.io/images/download/ubuntu-icon.svg" alt="">
+                    <p>Ubuntu</p>
+                </div>
+                <div class="cdc windownload">
+                    <img src="https://atomicwallet.io/images/download/debian-icon.svg" alt="">
+                    <p>Debian</p>
+                </div>
+                <div class="cdc windownload">
+                    <img src="https://atomicwallet.io/images/download/fedora-icon.svg" alt="">
+                    <p>Fedora</p>
+                </div>
+
+
+
+            </div>
+            <div class="cdb capsuladownloadsectionxx">
+                <!-- playStore -->
+                    <img src="https://atomicwallet.io/images/download/google-play-icon.svg" alt="">
+                <!-- IOS -->
+                    <img src="https://atomicwallet.io/images/download/appstore-icon.svg" alt="">
+                <!-- ANDROID APK -->
+                    <img src="https://atomicwallet.io/images/download/DownloadAPK.svg" alt="">
+
+            </div>
+
+        </div>
+     </section>
+    <!-- footer -->
+    <footer>
+            <div class="footer-container">
+                <div class="footer-section logo-section">
+                    <img src="src/img/logoBh3.png" alt="LOGO" class="cda">
+                    <h2>BhCripto</h2>
+                    <div class="social-icons">
+                        <i style="font-size: 40px;" class="fa-brands fa-square-facebook"></i>
+                        <i style="font-size: 40px;" class="fa-brands fa-square-instagram"></i>
+                        <i style="font-size: 40px;" class="fa-brands fa-square-whatsapp"></i>
+                    </div>
+                </div>
+                <div class="footer-section about-section">
+                    <h3>Sobre</h3>
+                    <p>📍 GO Goiania Rua Albuquerque</p>
+                    <p>📞 +55 61 9 94282741</p>
+                    <p>🕒 Aberto: 8AM - 8PM</p>
+                </div>
+                <div class="footer-section quick-links-section">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="#">Compras e vendas de Cripto</a></li>
+                        <li><a href="#">Wallet de Cripto</a></li>
+                        <li><a href="#">Ofertas em PIX</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section newsletter-section">
+                    <h3>Suporte Técnico</h3>
+                    <form action="#">
+                        <input type="email" placeholder="Seu email">
+                        <button type="submit">SUBSCRIBE</button>
+                    </form>
+                </div>
+            </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    <script src="src/js/utlis.js"></script>
+    <script src="src/js/main.js"></script>
+</body>
+</html>
